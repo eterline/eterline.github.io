@@ -1,0 +1,91 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url("/backgorund_1.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    margin-left: 10em;
+    margin-right: 10em;
+    justify-content: center;
+}
+
+.flex-header {
+    width: max(80%, 600px);
+    display:flex;
+    background-color: rgba(12, 3, 3, 0.622);
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.site-name {
+    color: whitesmoke;
+    width: 15%;
+    font-size: 1.3em;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.nav {
+    padding-left: 3em;
+    flex-direction: row;
+    color: whitesmoke;
+    width: 55%;
+    align-content: center;
+}
+
+.nav li {
+    justify-content: center;
+    display: flex;
+    padding-right: 4em;
+    padding-left: 1em;
+    display: inline;
+    justify-content: space-between;
+    font-size: 1.3em;
+}
+
+.nav a {
+    color: whitesmoke;
+}
+
+.nav a:hover{
+    transform: scale(1.2);
+}
+
+/* ----------MAIN---------- */
+main {
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+}
+
+.flex-main {
+    opacity: 50%;
+    background-color: black;
+    border-radius: 15px;
+    width: 60%;
+    padding: 2em;
+	height: fit-content;
+	margin: 10px;
+    color: whitesmoke;
+    margin: auto;
+}
+
+.whoami H1 {
+    position: relative;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 1.4em;
+}

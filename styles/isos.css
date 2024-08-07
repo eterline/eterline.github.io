@@ -1,0 +1,28 @@
+.iso {
+    background-color: rgba(12, 3, 3, 0.622);
+    padding: 0.5em;
+    margin: 2em;
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: row;
+    width: 20em;
+    border-radius: 25px;
+}
+
+.iso:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+.iso img {
+    width: 60px;
+    height: 60px;
+}
+
+.iso-name {
+    padding-left: 1em;
+}
+
+.iso-name a {
+    color: whitesmoke;
+}
