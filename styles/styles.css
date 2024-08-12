@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: "JetBrains Mono", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -8,6 +9,7 @@ body {
     background-image: url("../images/backgorund_1.jpg");
     background-color: #cccccc;
     background-attachment: fixed;
+    color: whitesmoke;
 }
 
 header {
@@ -68,24 +70,21 @@ main {
     justify-content: center;
 }
 
-.flex-main {
+#description {
     opacity: 50%;
     background-color: black;
     border-radius: 15px;
-    width: 60%;
+    width: 40%;
     padding: 2em;
 	height: fit-content;
 	margin: 10px;
-    color: whitesmoke;
-    margin: auto;
+    font-size: 1.4em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.whoami H1 {
+#whoami H1 {
     position: relative;
     font-size: 3em;
     font-weight: 600;
-}
-
-.description {
-    font-size: 1.4em;
 }
