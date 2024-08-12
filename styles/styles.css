@@ -24,17 +24,16 @@ header {
     display:flex;
     background-color: rgba(12, 3, 3, 0.622);
     flex-direction: row;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .site-name {
     color: whitesmoke;
     width: 15%;
-    font-size: 1.3em;
+    font-size: 1.2em;
     align-content: center;
     padding-left: 5%;
     padding-right: 5%;
-
 }
 
 .nav {
@@ -71,6 +70,7 @@ main {
 }
 
 #description {
+    text-align: center;
     opacity: 50%;
     background-color: black;
     border-radius: 15px;
@@ -87,4 +87,20 @@ main {
     position: relative;
     font-size: 3em;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 1080px) {
+    #whoami H1 {
+        font-size: 1.2em;
+    }
+    #description {
+        font-size: 1em;
+        width: 60%;
+    }
+    .site-name {
+        font-size: 0.8em;
+    }
+    .nav li {
+        font-size: 0.7em;
+    }
 }
