@@ -1,0 +1,24 @@
+#soft-pages {
+    display: flex;
+    justify-content: baseline;
+}
+
+.soft-page {
+    width: 8em;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    background: rgba(12, 3, 3, 0.622);
+
+}
+
+
+.soft-page a {
+    color: whitesmoke;
+}
+
+.unicode-logo {
+    font-size: 4em;
+}
