@@ -11,9 +11,12 @@
     margin: 1em;
     padding: 1em;
     background: rgba(12, 3, 3, 0.622);
-
+    transition: transform .3s
 }
 
+.soft-page:hover{
+    transform: scale(1.2);
+}
 
 .soft-page a {
     color: whitesmoke;
