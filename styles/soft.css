@@ -1,6 +1,8 @@
 #soft-pages {
+    max-width: 60%;
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .soft-page {
@@ -15,7 +17,7 @@
 }
 
 .soft-page:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 

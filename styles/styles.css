@@ -8,6 +8,7 @@
 body {
     background-image: url("../images/backgorund_1.jpg");
     background-color: #cccccc;
+    background-position: center;
     background-attachment: fixed;
     color: whitesmoke;
 }
@@ -59,7 +60,7 @@ header {
 }
 
 .nav a:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* ----------MAIN---------- */
