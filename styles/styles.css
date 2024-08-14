@@ -21,16 +21,21 @@ header {
 }
 
 .flex-header {
-    width: max(80%, 600px);
+    margin-bottom: 3em;
+    width: auto;
     display:flex;
+    padding: 0em 2em;
     background-color: rgba(12, 3, 3, 0.622);
     flex-direction: row;
+    justify-content: center;
     border-radius: 10px;
 }
 
 .site-name {
+    text-align: center;
+    background-color: rgba(12, 3, 3, 0.622);
     color: whitesmoke;
-    width: 15%;
+    width: auto;
     font-size: 1.2em;
     align-content: center;
     padding-left: 5%;
@@ -38,20 +43,17 @@ header {
 }
 
 .nav {
-    padding-left: 3em;
-    flex-direction: row;
-    color: whitesmoke;
-    width: 55%;
     align-content: center;
+    justify-content:inherit;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    margin: 0em 2em;
 }
 
+
 .nav li {
-    justify-content: center;
-    display: flex;
-    padding-right: 4em;
-    padding-left: 1em;
-    display: inline;
-    justify-content: space-between;
+    margin-top: 10px;
+    list-style:none;
     font-size: 1.3em;
 }
 
@@ -59,19 +61,15 @@ header {
     color: whitesmoke;
 }
 
-.nav a:hover{
-    transform: scale(1.1);
-}
-
 /* ----------MAIN---------- */
 main {
     display: flex;
-    padding-top: 5%;
+    height: auto;
     justify-content: center;
 }
 
 #description {
-    text-align: center;
+    text-align: justify;
     opacity: 50%;
     background-color: black;
     border-radius: 15px;
