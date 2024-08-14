@@ -1,3 +1,7 @@
+html {
+    font-size: 16px
+}
+
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 * {
     font-family: "JetBrains Mono", sans-serif;
@@ -97,9 +101,9 @@ main {
         width: 60%;
     }
     .site-name {
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .nav li {
-        font-size: 0.7em;
+        font-size: 1em;
     }
 }
