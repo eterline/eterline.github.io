@@ -1,10 +1,11 @@
 html {
     font-size: 16px
 }
-
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 * {
-    font-family: "JetBrains Mono", sans-serif;
+    font-family: "JetBrains Mono", mono;
     font-weight: 400;
     font-style: normal;
 }
@@ -47,17 +48,13 @@ header {
 }
 
 .nav {
-    align-content: center;
-    justify-content:inherit;
-    flex-wrap: wrap;
     white-space: nowrap;
-    margin: 0em 2em;
 }
 
 
 .nav li {
-    margin-top: 10px;
-    list-style:none;
+    margin: 1em;
+    list-style: none;
     font-size: 1.3em;
 }
 
