@@ -1,0 +1,12 @@
+[Unit]
+Description=SpoofDPI service.
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=%h/SpoofDPI/spoof-dpi
+Restart=on-failure/always
+TimeoutSec=15
+
+[Install]
+WantedBy=default.target
