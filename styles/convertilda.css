@@ -1,0 +1,53 @@
+.convertilda-pad {
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#pad-title {
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    background-color: rgba(194, 194, 194, 0.103);
+    font-size: 2em;
+}
+
+.form-block {
+    text-align: center;
+    margin: auto;
+    margin-top: 45px;
+    align-self: center;
+    gap: 4px;
+    margin-bottom: 25px;
+}
+
+.dropdown-list {
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.4);
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+.button-box {
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.4);
+    margin: auto;
+    padding: 5px;
+    width: fit-content;
+    scale: 1.2;
+    margin-top: 15px;
+}
