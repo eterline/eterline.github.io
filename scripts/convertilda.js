@@ -14,7 +14,7 @@ form.addEventListener('submit', function(event) {
     const selectedTarget = dropdown.value;
 
     formData.append('file', selectedFile);
-    const res = apiRequest(formData, 'http://10.192.10.180:8080/api/convert/documents', selectedTarget)
+    const res = apiRequest(formData, '', selectedTarget)
 });
 
 async function apiRequest(formData, api, target) {

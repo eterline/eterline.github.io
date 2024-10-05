@@ -1,13 +1,12 @@
 html {
     font-size: 16px
 }
-@import url('https://fonts.googleapis.com/css?family=Audiowide');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 * {
-    font-family: "JetBrains Mono", mono;
-    font-weight: 400;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
 }
 
 body {
