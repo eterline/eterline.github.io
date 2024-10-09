@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+
+  :root {
+    --pixel-side: 25px;
+  }
+  
+  .visually-hidden:not(:focus):not(:active),
+  input[type="checkbox"].visually-hidden,
+  input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #333a48;
+  }
+  
+  .controls {
+    margin-bottom: 24px;
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    line-height: 22px;
+    color: #eff1f5;
+    border-bottom: 2px solid #20262db6;
+    background-color: #485671c7;
+  }
+  
+  .container {
+    width: fit-content;
+    height: 60px;
+    margin: 0 auto;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .main {
+    padding-top: 40px;
+    margin: auto;
+    position: relative;
+    width: fit-content;
+    height: calc(var(--pixel-side)*4);
+  }
+  
+  .canvas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 3px solid #20262d;
+  }
+  
+  .pixel {
+    width: var(--pixel-side);
+    height: var(--pixel-side);
+    border: 1px solid #333a48;
+    background-color: #000000;
+    cursor: pointer;
+  }
+
+  .hex-value {
+    color: #ffffff;
+    text-align: center;
+  }
+
+  #clear-btn {
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: ease-in-out .3s;
+  }
+
+  #clear-btn:hover {
+    background-color: #04cc83;
+  }
+
+  #clear-btn:active {
+    scale: 0.9;
+  }
+
+  #back {
+    margin-right: 40px;
+    vertical-align: bottom;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #0489aa; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: ease-in-out .3s;
+  }
+
+  #back:hover {
+    background-color: #04a9d3;
+  }
