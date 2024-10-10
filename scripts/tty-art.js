@@ -45,6 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function copyToClipboard(text) {
-  navigator.clipboard.writeText(text)
-  alert("Hex list has been copied.")
+  navigator.clipboard.writeText(text);
+  alert("Hex list has been copied.");
 }
