@@ -1,3 +1,5 @@
+let resultString = ""
+
 document.addEventListener("DOMContentLoaded", function () {
     const pixelCols = document.querySelectorAll('.pixel-col');
     const clearButton = document.getElementById('clear-btn');
@@ -28,15 +30,20 @@ document.addEventListener("DOMContentLoaded", function () {
           pixel.style.backgroundColor = pixel.classList.contains('active') ? 'green' : '#000000';
         });
         const hexValue = parseInt(binaryValue, 2).toString(16).toUpperCase();
-        const hexDisplay = col.querySelector('.hex-value');
-        if (hexValue != '0') {
-          hexDisplay.textContent = `${hexValue}`;
-          if (hexValue.length == 1) hexDisplay.textContent = `0${hexValue}`;
-        } else {
-          hexDisplay.textContent = `00`;
-        }
+        col.querySelector('.hex-value').textContent = hexValue.padStart(2,"0");
+
+        const hexElements = document.querySelectorAll('.hex-value');
+        let hexValues = [];
+
+        hexElements.forEach(function(element) {
+          hexValues.push(element.textContent.trim()); // trim убирает лишние пробелы
+        });
+        resultString = hexValues.join(' ');
       }
-  
       updateHexValue(col);
     });
 });
+
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text)
+}
