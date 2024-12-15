@@ -1,0 +1,188 @@
+/* =================header section================= */
+
+header {
+    display: flex;
+    justify-content: center;
+
+    height: fit-content;
+    width: 100%;
+}
+
+
+.header-container {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: fit-content;
+    background-color: var(--main-color);
+
+    border-radius: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+
+    box-shadow: 5px 5px 10px black;
+}
+
+
+#site-logo {
+    margin-right: 2rem;
+}
+
+.site-top-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.site-top-nav a {
+    text-decoration: none;
+    color: var(--text-colo);
+}
+
+.nav-case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 0px 10px var(--second-color);
+
+    background-color: var(--main-black);
+    border-radius: 0.5rem;
+
+    font-size: 1.2em;
+    
+    padding: 10px;
+
+    transition: .4s ease-in-out;
+}
+
+.nav-case:hover {
+    background-color: var(--third-color);
+    color: var(--main-black);
+
+    padding: 10px;
+
+    border-radius: 0.5rem;
+
+    box-shadow: 10px 5px 5px var(--second-color);
+    scale: 1.05;
+}
+
+.nav-case:nth-child(5) :hover {
+    filter: invert(1);
+}
+
+
+@media (max-width: 720px) {
+
+
+    .nav-case {
+        padding: 0px;
+        font-size: 0.8rem;
+        padding: 0.2rem;
+    }
+
+    .site-top-nav {
+        gap: .3rem;
+
+        padding: 5px;
+    }
+}
+
+/* =================main section================= */
+
+main {
+    display: flex;
+    justify-content: center;
+
+    min-height: 85vh;
+    width: 100%;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* =================footer section================= */
+
+footer {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.footer-container {
+    width: 100%;
+
+    display: flex;
+
+    background-color: var(--main-black);
+    padding: 5px;
+}
+
+#contact {
+    width: fit-content;
+
+    display: flex;
+    justify-content: start;
+
+    gap: .8rem;
+}
+
+#contact div {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    background-color: var(--second-color);
+    padding: 5px;
+    
+    gap: 10px;
+
+    border-radius: 0.5rem;
+}
+
+.connect-logos {
+    width: 1.8em;
+    height: fit-content;
+}
+
+#info {
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.site-bottom-nav {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.site-bottom-nav a {
+    color: var(--text-colo);
+}
+
+@media (max-width: 720px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    #site-logo {
+        margin-right: auto;
+    }
+
+    .site-bottom-nav a {
+        display: none;
+    }
+
+    #contact span {
+        display: none;
+    }
+}

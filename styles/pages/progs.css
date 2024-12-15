@@ -1,0 +1,80 @@
+/* CSS for 'pages/progs.html' */
+
+.case-name {
+
+    display: block;
+
+    font-size: 1.2rem;
+}
+
+#programs-container {
+    width: 40%;
+    height: fit-content;
+    padding: 1rem;
+
+    background-color: var(--main-color);
+
+    border-radius: .5rem;
+
+    box-shadow: 5px 5px 10px black;
+}
+
+.prog-cases {
+    background-color: var(--second-color);
+    padding: 1rem;
+
+    border-radius: 0.5rem;
+}
+
+.prog-case-link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.prog-case-icon {
+    width: 5rem;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prog-case {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    padding: 0.8rem;
+    background-color: var(--main-color);
+    margin-bottom: 0.8rem;
+    border-radius: 0.5rem;
+
+    transition: 0.4s ease-in-out;
+
+}
+
+.prog-case:hover {
+    scale: 1.01;
+
+    box-shadow: 5px 5px 10px black;
+}
+
+.prog-case h1 {
+    font-size: 1.5em;
+
+    background-color: white;
+    color: black;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.4rem;
+
+    border-radius: 0.5rem;
+}
+
+
+@media (max-width: 990px) {
+    #programs-container {
+        width: 85%;
+    }
+}

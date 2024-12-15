@@ -1,105 +1,53 @@
 html {
-    font-size: 16px
+    font-size: 16px;
+}
+
+@media (max-width: 720px) {
+    
+}
+
+/* Сброс отступов от границ документа */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 * {
     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     font-style: normal;
     font-variant: normal;
+
     font-weight: 500;
 }
+* {
+    --main-color: hsla(0, 0%, 0%, 0.8);
+    --second-color: hsla(0, 0%, 40%, 0.8);
+    --third-color: hsla(0, 0%, 80%, 0.8);
+
+    --main-black: black;
+
+    --text-color: whitesmoke;
+}
+
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+/* =================body param================= */
 
 body {
-    background-image: url("../images/backgorund_1.jpg");
-    background-color: #cccccc;
+    background-image: url("../images/background/bg1.jpg");
+
     background-position: center;
     background-attachment: fixed;
-    color: whitesmoke;
-}
+    background-repeat: no-repeat;
 
-header {
-    display: flex;
-    margin-left: 10em;
-    margin-right: 10em;
-    justify-content: center;
-}
-
-.flex-header {
-    margin-bottom: 3em;
-    width: auto;
-    display:flex;
-    padding: 0em 2em;
-    background-color: rgba(12, 3, 3, 0.622);
-    flex-direction: row;
-    justify-content: center;
-    border-radius: 10px;
-}
-
-.site-name {
-    text-align: center;
-    background-color: rgba(12, 3, 3, 0.622);
-    color: whitesmoke;
-    width: auto;
-    font-size: 1.2em;
-    align-content: center;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.nav {
-    white-space: nowrap;
-}
-
-
-.nav li {
-    margin: 1em;
-    list-style: none;
-    font-size: 1.3em;
-}
-
-.nav a {
-    color: whitesmoke;
-}
-
-/* ----------MAIN---------- */
-main {
-    display: flex;
-    height: auto;
-    justify-content: center;
-}
-
-#description {
-    text-align: justify;
-    opacity: 50%;
-    background-color: black;
-    border-radius: 15px;
-    width: 40%;
-    padding: 2em;
-	height: fit-content;
-	margin: 10px;
-    font-size: 1.4em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#whoami H1 {
-    position: relative;
-    font-size: 3em;
-    font-weight: 600;
-}
-
-@media only screen and (max-width: 1080px) {
-    #whoami H1 {
-        font-size: 1.2em;
-    }
-    #description {
-        font-size: 1em;
-        width: 60%;
-    }
-    .site-name {
-        font-size: 1em;
-    }
-    .nav li {
-        font-size: 1em;
-    }
+    color: var(--text-color);
 }

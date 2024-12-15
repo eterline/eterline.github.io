@@ -1,0 +1,63 @@
+{
+    "utils": [
+        {
+            "file": "all_office_installer_1234_passwd.zip",
+            "name": "MS Office Installer",
+            "description": "Установщик пакета MS Office со всеми локализациями. <br> Пароль от архива: 1234"
+        },
+        {
+            "file": "SpoofDPI-Linux.zip",
+            "name": "SpoofDPI (Linux)",
+            "description": "Прокси для обхода DPI для Linux систем."
+        }
+    ],
+    "iso": [
+        {
+            "file": "windows_10_version_22h2_en.torrent",
+            "name": "Windows 10 22H2 EN",
+            "description": "Английская локализация. Образ Windows 10 22H2. Торрент загрузка."
+        },
+        {
+            "file": "windows_10_version_22h2_ru.torrent",
+            "name": "Windows 10 22H2 RU",
+            "description": "Русская локализация. Образ Windows 10 22H2. Торрент загрузка."
+        },
+        {
+            "file": "windows_11_iot_enterprise_ltsc_24h2_insider_prewiev.torrent",
+            "name": "Windows 11 24H2 LTSC Insider",
+            "description": "Образ Windows 11 24H2. Инсайдерская версия. Торрент загрузка."
+        },
+        {
+            "file": "windows_11_version_23h2_en.torrent",
+            "name": "Windows 11 23H2 EN",
+            "description": "Английская локализация. Образ Windows 11 23H2. Торрент загрузка."
+        },
+        {
+            "file": "windows_11_version_23h2_ru.torrent",
+            "name": "Windows 11 23H2 RU",
+            "description": "Русская локализация. Образ Windows 11 23H2. Торрент загрузка."
+        }
+    ],
+    "iso-legacy": [
+        {
+            "file": "Windows_7_with_SP1_U_MSDN_En.torrent",
+            "name": "Windows 7 SP1 MSDN EN",
+            "description": "Английская локализация. Образ Windows 7 SP1 MSDN. Торрент загрузка."
+        },
+        {
+            "file": "Windows_7_with_SP1_U_MSDN_Ru.torrent",
+            "name": "Windows 7 SP1 MSDN RU",
+            "description": "Русская локализация. Образ Windows 7 SP1 MSDN. Торрент загрузка."
+        },
+        {
+            "file": "Windows_8.1_with_Update_3_MSDN_En.torrent",
+            "name": "Windows 8.1 MSDN EN",
+            "description": "Английская локализация. Образ Windows 8.1 MSDN. Торрент загрузка."
+        },
+        {
+            "file": "Windows_8.1_with_Update_3_MSDN_Ru.torrent",
+            "name": "Windows 8.1 MSDN RU",
+            "description": "Русская локализация. Образ Windows 8.1 MSDN. Торрент загрузка."
+        }
+    ]
+}

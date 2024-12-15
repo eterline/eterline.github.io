@@ -7,10 +7,11 @@
         <meta name="description" content="Просто сайт с образами,полезными утилитами и статьями на тему самохостинга">
         <meta name="author" content="Eterline (Андрей)">
 
-        <title>Eteline - Site</title>
+        <title>Eteline - About</title>
 
-        <link rel="stylesheet" href="styles/index.css">
-        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="../styles/index.css">
+        <link rel="stylesheet" href="../styles/styles.css">
+        <link rel="stylesheet" href="../styles/pages/progs.css">
     </head>
     <body>
         <header>
@@ -22,9 +23,9 @@
                     <div class="nav-case"><a href="/pages/progs.html"> Программы </a></div>
                     <div class="nav-case"><a href="/pages/write.html"> Статьи </a></div>
                     <div class="nav-case"><a href="/pages/about.html"> О сайте </a></div>
-                    
+
                     <a href="https://github.com/eterline">
-                        <div class="nav-case"> <img class="connect-logos" src="images/connect/github.png" alt="Github"></div>
+                        <div class="nav-case"> <img class="connect-logos" src="../images/connect/github.png" alt="Github"></div>
                     </a>
                 </nav>
 
@@ -32,7 +33,38 @@
         </header>
 
         <main class='main-container'>
+            <div id="programs-container">
 
+                <details>
+                    <summary>
+                        <span class="case-name">Утилиты</span>
+
+                    </summary>
+                    <div class="prog-cases" id="utils">
+
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                         <span class="case-name">ISO образы</span>
+                    </summary>
+                    <div class="prog-cases" id="iso">
+
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span class="case-name">ISO образы (Legacy системы)</span>
+                        
+                    </summary>
+                    <div id="iso-legacy">
+
+                    </div>
+                </details>
+
+            </div>
         </main>
 
         <footer>
@@ -45,9 +77,9 @@
                 <div id="info">
                     <nav class="site-bottom-nav">
                         <div><a href="/"> Home </a></div>
-                        <div><a href="pages/about.html"> Программы </a></div>
-                        <div><a href="pages/write.html"> Статьи </a></div>
-                        <div><a href="pages/about.html"> О сайте </a></div>
+                        <div><a href="/pages/progs.html"> Программы </a></div>
+                        <div><a href="/pages/write.html"> Статьи </a></div>
+                        <div><a href="/pages/about.html"> О сайте </a></div>
                     </nav>
                 </div>
             </div> 
@@ -55,7 +87,6 @@
         
     </body>
 
-    <script>
-        window.location.replace("pages/about.html");
-    </script>
+    <script type="text/javascript" src="../scripts/progs.js"></script>
+
 </html>
