@@ -25,6 +25,8 @@ const printSoft = async (elemID) => {
                 <H1 class="m-3 font-bold"> ${obj["name"]} </H1>
                 <br>
                 ${obj["description"]}
+                <br>
+                📎
             </div>
             `;
     

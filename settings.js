@@ -54,7 +54,7 @@ const setNavCases = (navParamsMap, navClassName) => {
         const Ncase = document.createElement("a");
 
         Ncase.setAttribute('href', caseLink);
-        Ncase.innerHTML = `<div class="nav-case">${caseLogo} ${caseName}</div>`;
+        Ncase.innerHTML = `<div class="nav-case text-center">${caseLogo} ${caseName}</div>`;
 
         return Ncase;
     }
