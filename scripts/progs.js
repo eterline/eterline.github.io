@@ -21,8 +21,8 @@ const printSoft = async (elemID) => {
     
             ISOcontainer.innerHTML = `
             <div class="prog-case">
-                <img class="prog-case-icon" src="${iconList[elemID]}">
-                <H1> ${obj["name"]} </H1>
+                <img class="prog-case-icon m-3 self-center" src="${iconList[elemID]}">
+                <H1 class="m-3 font-bold"> ${obj["name"]} </H1>
                 <br>
                 ${obj["description"]}
             </div>

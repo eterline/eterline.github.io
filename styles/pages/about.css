@@ -1,19 +1,12 @@
 /* CSS for 'pages/about.html' */
 
 #aboutme {
-    width: 50%;
+    width: 35%;
     height: fit-content;
-    padding: 1rem;
 
     background-color: var(--main-color);
 
-    border-radius: .5rem;
-
     box-shadow: 5px 5px 10px black;
-}
-
-#aboutme H1 {
-    text-align: center;
 }
 
 #aboutme p {
@@ -24,8 +17,6 @@
 @media (max-width: 990px) {
     #aboutme {
         width: 80%;
-
-        text-align: justify;
     }
 
     #aboutme p {

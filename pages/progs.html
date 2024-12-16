@@ -14,16 +14,13 @@
         <link rel="stylesheet" href="../styles/pages/progs.css">
     </head>
     <body>
+
         <header>
-            <div class='header-container'>
+            <div class='header-container p-2 rounded'>
 
-                <H1 id="site-logo"> Eterline </H1>
-                <nav class="site-top-nav">
-                    <div class="nav-case"><a href="/"> Home </a></div>
-                    <div class="nav-case"><a href="/pages/progs.html"> Программы </a></div>
-                    <div class="nav-case"><a href="/pages/write.html"> Статьи </a></div>
-                    <div class="nav-case"><a href="/pages/about.html"> О сайте </a></div>
-
+                <H1 id="site-logo" class="text-3xl font-bold"> Eterline </H1>
+                
+                <nav class="site-top-nav site-nav">           
                     <a href="https://github.com/eterline">
                         <div class="nav-case"> <img class="connect-logos" src="../images/connect/github.png" alt="Github"></div>
                     </a>
@@ -32,12 +29,12 @@
             </div>
         </header>
 
-        <main class='main-container'>
+        <main class='main-container p-0.5'>
             <div id="programs-container">
 
                 <details>
                     <summary>
-                        <span class="case-name">Утилиты</span>
+                        <span class="case-name text-2xl font-bold">Утилиты</span>
 
                     </summary>
                     <div class="prog-cases" id="utils">
@@ -47,7 +44,7 @@
 
                 <details>
                     <summary>
-                         <span class="case-name">ISO образы</span>
+                         <span class="case-name  text-2xl font-bold">ISO образы</span>
                     </summary>
                     <div class="prog-cases" id="iso">
 
@@ -56,7 +53,7 @@
 
                 <details>
                     <summary>
-                        <span class="case-name">ISO образы (Legacy системы)</span>
+                        <span class="case-name  text-2xl font-bold">ISO образы (Legacy системы)</span>
                         
                     </summary>
                     <div id="iso-legacy">
@@ -69,24 +66,45 @@
 
         <footer>
             <div class='footer-container'>
+
                 <div id="contact">
-                    <div><img class="connect-logos" src="../images/connect/telegram.png" alt="TG"><span>Telegram</span></div>
-                    <div><img class="connect-logos" src="../images/connect/vk.png" alt="VK"><span>VK</span></div>
-                    <div><img class="connect-logos" src="../images/connect/youtube.png" alt="YT"><span>Youtube</span></div>
-                </div>
-                <div id="info">
-                    <nav class="site-bottom-nav">
-                        <div><a href="/"> Home </a></div>
-                        <div><a href="/pages/progs.html"> Программы </a></div>
-                        <div><a href="/pages/write.html"> Статьи </a></div>
-                        <div><a href="/pages/about.html"> О сайте </a></div>
-                    </nav>
+                    <a id="telegram-contact-url">
+                        <div>
+                            <img class="connect-logos" src="../images/connect/telegram.png" alt="TG">
+                            <span>Telegram</span>
+                        </div>
+                    </a>
+
+                    <a id="vk-contact-url">
+                        <div>
+                            <img class="connect-logos" src="../images/connect/vk.png" alt="VK">
+                            <span>VK</span>
+                        </div>
+                    </a>
+                    
+                    <a id="youtube-contact-url">
+                        <div>
+                            <img class="connect-logos" src="../images/connect/youtube.png" alt="YT">
+                            <span>Youtube</span>
+                        </div>
+                    </a>
+
+                    <a id="github-contact-url">
+                        <div>
+                            <img class="connect-logos" src="../images/connect/github.png" alt="Github">
+                            <span>Github</span>
+                        </div>
+                    </a>
+
                 </div>
             </div> 
         </footer>
         
     </body>
 
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <script type="text/javascript" src="../scripts/progs.js"></script>
+    <script type="text/javascript" src="../settings.js"></script>
 
 </html>

@@ -1,0 +1,20 @@
+{
+    "theme": {
+        "dark": {},
+        "white": {}
+    },
+
+    "contacts":{
+        "vk-contact-url":"https://vk.com/l_w_e",
+        "telegram-contact-url":"https://t.me/EternalLine",
+        "youtube-contact-url":"...",
+        "github-contact-url":"https://github.com/eterline"
+    },
+
+    "site-nav": [
+        {"name":"Home",         "link": "",                  "logo": ""},
+        {"name":"Программы",    "link": "/pages/progs.html", "logo": ""},
+        {"name":"Статьи",       "link": "/pages/write.html", "logo": ""},
+        {"name":"О себе",       "link": "/pages/about.html", "logo": ""}
+    ]
+}
