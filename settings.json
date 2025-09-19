@@ -12,9 +12,8 @@
     },
 
     "site-nav": [
-        {"name":"Home",         "link": "",                  "logo": "🏠︎"},
         {"name":"Программы",    "link": "/pages/progs.html", "logo": "🛠️"},
         {"name":"Статьи",       "link": "/pages/write.html", "logo": "📝"},
-        {"name":"О себе",       "link": "/pages/about.html", "logo": "👨‍💻"}
+        {"name":"О себе",       "link": "https://knowledge.eterline.ru", "logo": "👨‍💻"}
     ]
 }
